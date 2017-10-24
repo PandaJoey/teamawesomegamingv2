@@ -1,0 +1,75 @@
+* {
+    background-color: transparent;
+}
+#topBar {
+    display: block;
+    max-width: 100%;
+    width:auto;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    right:0;
+    margin: 0 auto;
+    padding-right:10px;
+
+}
+.socialMediaButtons {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:50px;
+    width:auto;
+    background-color: transparent;
+    z-index: 3;
+}
+#homePageBanner {
+    max-width: 100%;
+    height: 300px;
+    width: 100%;
+}
+.slideShowImages {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:auto;
+    width:auto;
+    z-index: 1;
+}
+#mainNav {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:100px;
+    width:auto;
+}
+.navUl {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:60px;
+    width:auto;
+    background-color: #000000;
+}
+
+.navLi {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:50px;
+    width:auto;
+    color: #ffffff;
+    border-style: outset;
+}
+
+#newsFeed {
+
+}
+
+#sideBar {
+
+}
+
+#bottomBar {
+
+}
