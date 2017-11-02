@@ -25,7 +25,7 @@
 }
 #homePageBanner {
     max-width: 100%;
-    height: 300px;
+    height: 100%;
     width: 100%;
 }
 .slideShowImages {
@@ -37,29 +37,31 @@
     z-index: 1;
 }
 #mainNav {
-    display: inline-block;
-    margin: 0 auto;
     max-width: 100%;
-    height:100px;
-    width:auto;
+    height:auto;
+    width:100%;
+    background-color: #777777;
 }
 .navUl {
     display: inline-block;
-    margin: 0 auto;
     max-width: 100%;
-    height:60px;
-    width:auto;
-    background-color: #000000;
+    height:auto;
+    width:100%;
+    background-color: #777777;
 }
 
 .navLi {
     display: inline-block;
+    float: left;
     margin: 0 auto;
     max-width: 100%;
-    height:50px;
+    height:auto;
     width:auto;
     color: #ffffff;
-    border-style: outset;
+    border-style: groove;
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+
 }
 
 #newsFeed {
